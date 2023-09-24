@@ -398,9 +398,14 @@ p {
   align-items: center;
   justify-content: center; 
 }
-.a_li_ul_social_sec_f:hover {
-  background-color: #404bbf;
-}
+.a_li_ul_social_sec_f:hover,
 .a_li_ul_social_sec_f:focus {
   background-color: #404bbf;
+}
+
+
+.svg_a_li_ul_social_sec_f {
+  width: 100%;
+  height: 100%;
+  fill: var(--icon-color, #f4f4fd);
 }
