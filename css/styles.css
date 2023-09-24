@@ -409,3 +409,47 @@ p {
   height: 100%;
   fill: var(--icon-color, #f4f4fd);
 }
+.footer_div {
+  display: flex;
+  align-items: baseline;
+
+}
+.div_dva {
+  margin-right: 120px
+}
+.div_tri_p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px; 
+}
+.div_tri_ul {
+  display: flex;
+  gap: 16px;
+
+}
+.div_tri_ul_li {
+  width: 40px;
+  height: 40px;
+
+}
+.div_tri_ul_li_a {
+  width: 100%;
+  height: 100%
+  ;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.div_tri_ul_li_a:focus,
+.div_tri_ul_li_a:hover {
+  background-color: #31d0aa;
+}
+
+.div_tri_svg {
+  
+}
