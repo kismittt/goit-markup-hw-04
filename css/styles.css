@@ -31,7 +31,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2E2F42;
   padding: 24px 0;
   display: block;
   position: relative;
@@ -356,6 +356,7 @@ p {
 }
 .current { 
   position: relative; 
+  color: #404BBF;
 } 
 .nav_link.current::after { 
  
