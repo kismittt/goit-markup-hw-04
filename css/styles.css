@@ -505,5 +505,14 @@ li_ul_social_sec_fli_sec_f
 .three_div_ul_li_a{
   width: 100%;
   height: 100%;
-
 }
+.three_div_ul_li_a:hover {
+  background-color: #404bbf;
+}
+.three_div_ul_li_a:focus{
+  background-color: #404bbf;
+}
+.three_div_ul_li_a_svg{
+  fill: var(--#f4f4fd)
+}
+
