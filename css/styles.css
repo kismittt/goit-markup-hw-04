@@ -292,6 +292,7 @@ ul {
   width: 1158px;
   padding: 0 15px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-right: 120px;
 }
 /* max-width: 960px; */
 .visually-hidden {
@@ -459,6 +460,7 @@ li_ul_social_sec_fli_sec_f
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
