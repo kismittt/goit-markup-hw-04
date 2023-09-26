@@ -204,6 +204,18 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+  position: absolute;
+  top: 0;
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%; 
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer {
   background-color: #2e2f42;
@@ -462,7 +474,7 @@ li_ul_social_sec_fli_sec_f
   position: relative;
   overflow: hidden;
 }
-.p_div_img_sec_ff {
+/* .p_div_img_sec_ff {
   position: absolute;
   top: 0;
   font-size: 16px; 
@@ -474,7 +486,7 @@ li_ul_social_sec_fli_sec_f
   width: 100%; 
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .three_div {
   padding: 32px 0
