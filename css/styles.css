@@ -485,6 +485,7 @@ p {
 .three_div_ul_lii{
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .three_div_ul_li_a{
   width: 100%;
