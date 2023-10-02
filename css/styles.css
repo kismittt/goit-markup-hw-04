@@ -96,7 +96,7 @@ ul {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: #404bbf;
@@ -492,6 +492,7 @@ p {
   display: flex; 
   align-items: center;
   justify-content: center; 
+  background-color: var(--#4d5ae5);
 }
 .three_div_ul_li_a:hover {
   background-color: #404bbf;
