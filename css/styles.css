@@ -379,7 +379,8 @@ p {
 
 
 }
-.li_ul_sec_ff:hover p{
+.li_ul_sec_ff:hover div >
+p{
   transform: translateY(0%);
 }
 .li_ul_sec_ff p {
