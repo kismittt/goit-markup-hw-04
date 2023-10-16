@@ -31,12 +31,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   padding: 24px 0;
   display: block;
   position: relative;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_link:hover {
   color: #404bbf;
@@ -95,8 +95,8 @@ ul {
   border-radius: 4px;
   display: block;
   margin-right: auto;
-  margin-left: auto;  
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: #404bbf;
@@ -109,7 +109,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .address_link:hover {
   color: #404bbf;
@@ -160,12 +161,11 @@ ul {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.li_sec_f {
+/* .li_sec_f {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-}
+} */
 .hthree_sec_three {
   font-weight: 500;
   font-size: 20px;
@@ -199,22 +199,16 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.p_sec_ff {
+/* .p_sec_ff {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  position: absolute;
-  top: 0;
-  font-size: 16px; 
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 40px 32px;
-  
-}
+} */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  align-items: center ;
 }
 .footer_a {
   font-family: "Raleway", sans-serif;
@@ -250,21 +244,22 @@ img {
   padding: 0 15px;
   display: flex;
   padding-left: 0;
-  align-items: center ;
 }
-
+/* div {
+  display: flex;
   
-
+} */
 .header_nav {
   display: flex;
   align-items: center;
 }
-
-ul {
+/* .ull */
+.ull {
   display: flex;
   gap: 40px;
   padding-left: 0;
   margin: 0;
+  margin-right: 120px;
 }
 /* 2222222222222222222222222222222222222222 */
 .address_ul {
@@ -287,7 +282,6 @@ ul {
   width: 1158px;
   padding: 0 15px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-  margin-right: 120px;
 }
 /* max-width: 960px; */
 .visually-hidden {
@@ -312,11 +306,9 @@ ul {
 }
 .ul_sec_f {
   display: flex;
-  gap: 24px;;
-
+  gap: 24px;
   justify-content: center;
 }
-
 .div_li_sec_f {
   padding: 32px 0;
 }
@@ -335,9 +327,6 @@ ul {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .li_ul_sec_ff:hover{
-
-} */
 .div_li_ul_sec_ff {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -383,11 +372,20 @@ p {
 } */
 .li_ul_sec_ff:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
 }
 .div_icons_li_sec_f{
   padding: 32px 0;
 
 
+}
+.li_ul_sec_ff:hover div >
+p{
+  transform: translateY(0%);
+}
+.li_ul_sec_ff p {
+  transform: translateY(0%);
+  transition: transform 0.3s ease; /* Анімація для плавного переходу */
 }
 .ul_social_sec_f{
   display: flex;
@@ -481,7 +479,6 @@ p {
   background-color: #4d5ae5;
   height: 100%;
   width: 100%; 
-  transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -493,9 +490,10 @@ p {
   justify-content: center;
   gap: 24px;
 }
-.three_div_ul_li{
+.three_div_ul_lii{
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .three_div_ul_li_a{
   width: 100%;
@@ -504,6 +502,7 @@ p {
   display: flex; 
   align-items: center;
   justify-content: center; 
+  background-color: var(--#4d5ae5);
 }
 .three_div_ul_li_a:hover {
   background-color: #404bbf;
@@ -516,3 +515,30 @@ p {
 
 }
 
+
+/* s`xxxxxxxxxxxxxxxxxxxx */
+
+
+
+
+.li_sec_f { 
+  background-color: #ffffff; 
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px; 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);  
+} 
+
+
+
+.p_sec_ff { 
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: #434455; 
+  position: absolute; 
+  top: 0; 
+  font-size: 16px;  
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  padding: 40px
+}
