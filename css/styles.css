@@ -465,9 +465,9 @@ p{
   background-color: #31d0aa;
 }
 
-/* .div_tri_svg {
-
-} */
+.div_tri_svg {
+  fill: #f4f4fd;
+}
 .div_img_sec_ff {
   position: relative;
   overflow: hidden;
