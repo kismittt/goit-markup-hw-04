@@ -386,10 +386,10 @@ p {
 p{
   transform: translateY(0%);
 }
-.li_ul_sec_ff p {
+/* .li_ul_sec_ff p {
   transform: translateY(0%);
-  transition: transform 0.3s ease; /* Анімація для плавного переходу */
-}
+  transition: transform 0.3s ease; 
+} */
 .ul_social_sec_f{
   display: flex;
   justify-content: center;
